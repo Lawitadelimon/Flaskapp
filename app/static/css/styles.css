@@ -75,3 +75,14 @@ nav li a:hover {
     background-color: #04AA6D;
     color: white;
   }
+
+  a{
+      text-decoration: none;
+  }
+
+.fa-pencil{
+      color: green;
+}
+.fa-trash{
+      color: red;
+}
