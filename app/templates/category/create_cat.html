@@ -19,8 +19,6 @@ Crear Nueva Categoría
         <div>
                 {{form.description.label}}
                 {{form.description}}
-                {{form.category.label}}
-                {{form.category}}
                 {% if form.description.errors %}
                         {% for error in form.description.errors %}
                         <p>{{ error }}</p>

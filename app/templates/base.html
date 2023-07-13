@@ -11,11 +11,11 @@
 <body>
     <nav>
         <ul>
-            <li><a href="{{ url_for('home')}}">Home</a></li>
-            <li><a href="{{ url_for('contact')}}">Contact</a></li>
-            <li><a href="{{ url_for('saludo', name='Lau')}}">Saludo</a></li>
-            <li><a href="{{ url_for('drinks')}}">Drinks</a></li>
-            <li><a href="{{ url_for('categories')}}">Categories</a></li>
+            <li><a href="{{ url_for('home.home')}}">Home</a></li>
+            <li><a href="{{ url_for('home.contact')}}">Contact</a></li>
+            <li><a href="{{ url_for('home.saludo', name='Lau')}}">Saludo</a></li>
+            <li><a href="{{ url_for('home.drinks')}}">Drinks</a></li>
+            <li><a href="{{ url_for('category.categories')}}">Categories</a></li>
 
             {% if user %}
             <li><a href="#">logout</a></li>
@@ -30,7 +30,7 @@
     </div>
     
     <footer>
-        <p></p>
+        <p>Copyrigth @lawitadelimon</p>
     </footer>
 </body>
 </html>

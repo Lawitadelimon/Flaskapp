@@ -86,3 +86,17 @@ nav li a:hover {
 .fa-trash{
       color: red;
 }
+table form {
+  display: inline-block;
+}
+table a {
+  text-decoration: none;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
